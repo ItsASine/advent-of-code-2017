@@ -1,0 +1,19 @@
+{
+  "name": "itsasine-aoc-2017",
+  "description": "ItsASine Advent of Code Solutions",
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository": {
+    "type": "github",
+    "url": "ItsASine/advent-of-code-2017"
+  },
+  "devDependencies": {
+    "jasmine": "*",
+    "jscs": "*"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "node spec/support/jasmine-runner.js",
+    "jscs": "node node_modules/jscs/bin/jscs *"
+  }
+}
